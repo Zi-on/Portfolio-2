@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
@@ -31,28 +32,108 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/pictures/Day-scheduler.png" class="card-img-top" alt="day-scheduler">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Work Day Scheduler</h5>
+            <p class="card-text">This website was designed for its user to schedule events and save them to their local storage. The site will automatically adapt based on the current time. future time slots will be green, the current time slot will be red, and the past time slots will be grey. when you write something on a time slot and hit the save button it will remain on the page 
+              even if the page is refreshed;until;the user hits done which will remove the scheduled content from the time slot. once a time slot is turned grey any content will be removed from its time slot.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+              Check it out
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Work Day Scheduler</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/pictures/wrkday.png" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://github.com/Zi-on/Work_day_scheduler" class="btn btn-primary" role="button">GitHub Repository</a>
+                    <a class="btn btn-primary" href="https://zi-on.github.io/Work_day_scheduler/" role="button">Deployed Site</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/pictures/Weather-icon.png" class="card-img-top" alt="Weather_Dashboard">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Weather_Dashboard</h5>
+            <p class="card-text">This site is a simple weather website. The user is able to look up the current weather of any location as well as a 5 day forecast.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+              Check it out
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Weather Dashboard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/pictures/weather.png" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://github.com/Zi-on/Weather_Dashboard" class="btn btn-primary" role="button">GitHub Repository</a>
+                    <a class="btn btn-primary" href="https://zi-on.github.io/Weather_Dashboard/" role="button">Deployed Site</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./assets/pictures/cryptocurrency.png" class="card-img-top" alt="crypto-circle">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Crypto Cash News</h5>
+            <p class="card-text">Crypto cash news is a one stop shop for all your crypto needs. When the site is loaded up, the user is presented with the top 5 crypto currencies and their stock information.
+              The user is also able to look up a crypto currency and get its stock information and news articles pertaining to that crypto. There is a "invest in crypto here..." button that links all available  
+              crypto trading platforms.
+            </p>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+              Check it out
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Crypto Cash News</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/pictures/crypto.png" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://github.com/JManauth/CryptoCashNews" class="btn btn-primary" role="button">GitHub Repository</a>
+                    <a class="btn btn-primary" href="https://jmanauth.github.io/CryptoCashNews/" role="button">Deployed Site</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
