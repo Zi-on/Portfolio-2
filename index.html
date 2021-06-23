@@ -5,30 +5,89 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Zion Flores</h1>
-        <p class="lead">Hello and welcome to my website.</p>
-      </div>
-    </div>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Zion Flores</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-triangle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+              <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+              <circle cx="15" cy="9" r="1" />
+            </svg>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Bio</a>
+                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#">About me</a>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact Me
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.linkedin.com/in/zion-flores-684354214/">Linkedin</a></li>
+                    <li><a class="dropdown-item" href="https://github.com/Zi-on">GitHub</a></li>
+                    <li><a class="dropdown-item" href="https://docs.google.com/document/d/18HWJoeuPAth7L7n6pQNYusYYDDmsfoWUIKeQCEBBQaU/edit">Portfolio</a></li>
+                  </ul>
+                </div>
 
-    <button type="button" class="btn btn-outline-primary">Bio</button>
-    <button type="button" class="btn btn-outline-danger">Projects</button>
-    <div class="btn-group">
-      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Contact Me
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="https://www.linkedin.com/in/zion-flores-684354214/">Linkedin</a></li>
-        <li><a class="dropdown-item" href="https://github.com/Zi-on">GitHub</a></li>
-        <li><a class="dropdown-item" href="https://docs.google.com/document/d/18HWJoeuPAth7L7n6pQNYusYYDDmsfoWUIKeQCEBBQaU/edit">Portfolio</a></li>
-      </ul>
-    </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/pictures/family.JPG" class="img-fluid" alt="Family">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-friends" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <circle cx="7" cy="5" r="2" />
+                  <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
+                  <circle cx="17" cy="5" r="2" />
+                  <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mood-boy" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M17 4.5a9 9 0 0 1 3.864 5.89a2.5 2.5 0 0 1 -.29 4.36a9 9 0 0 1 -17.137 0a2.5 2.5 0 0 1 -.29 -4.36a9 9 0 0 1 3.746 -5.81" />
+                  <path d="M9.5 16a3.5 3.5 0 0 0 5 0" />
+                  <path d="M8.5 2c1.5 1 2.5 3.5 2.5 5" />
+                  <path d="M12.5 2c1.5 2 2 3.5 2 5" />
+                  <line x1="9" y1="12" x2="9.01" y2="12" />
+                  <line x1="15" y1="12" x2="15.01" y2="12" />
+                </svg>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
@@ -138,6 +197,8 @@
         </div>
       </div>
     </div>  
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,240C384,235,480,181,576,133.3C672,85,768,43,864,64C960,85,1056,171,1152,202.7C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

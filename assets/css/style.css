@@ -1,3 +1,19 @@
-.jumbotron{
+:root {
+--PrimaryFont:'Dela Gothic One', cursive;
+--roboto: 'Roboto Mono', monospace;
+--Cursive:'Pacifico', cursive;
+}
+
+.navbar {
+    height: 6rem;
+}
+
+.navbar-brand {
+    font-family: var(--Cursive);
     
+    padding-left: 3rem;
+}
+
+.navbar-nav {
+    padding-left: 49rem;
 }
